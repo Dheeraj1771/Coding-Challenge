@@ -2,10 +2,9 @@
 <h2> 🚀 A Tribute To Parents 🚀 </h2>
 <p> Hey there! I’m K Dheeraj, and I’m thrilled to launch my 50 Days Coding Challenge. This is my personal journey to sharpen my coding skills, prepare for technical interviews, and pay tribute to my parents for Father’s Day and Mother’s Day. Join me as I dive into daily coding problems and grow as a developer! </p>
 
-```bash
-"Parents are the silent sculptors of their children every gesture, choice, and whisper molds the
-character of those who follow."
-``` 
+
+> 🌟 **"Parents are the silent sculptors of their children; every gesture, choice, and whisper molds the character of those who follow."** 🌟
+
 
 ## Table of Contents
 - [About the Challenge](#about-the-challenge)
@@ -58,9 +57,9 @@ Have questions or want to connect? Reach out via:
 
 ## Dedication
 This challenge is a heartfelt tribute to my parents—the unsung heroes who’ve supported me every step of the way. As a special gift for Father’s Day and Mother’s Day, I dedicate these 50 days to them, honoring their love and sacrifices through my commitment to growth.
-```bash
-"Parents are the ultimate role models for children. Every word, movement, and action has an effect." — Bob Keeshan
-```
+
+> **"Parents are the ultimate role models for children. Every word, movement, and action has an effect." — Bob Keeshan**
+
 Let’s code with purpose and make them proud! ❤️
 
 🎉 Happy Coding! Let’s Make Every Day Count! 🎉
