@@ -1,4 +1,4 @@
-// Day 1: Programming Fundamentals: 268. Missing Number
+// Day 1: Programming Fundamentals: LeetCode 268. Missing Number
 public class day1pf {
     public int missingNumber(int[] nums) {
         int n = nums.length;
