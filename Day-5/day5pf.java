@@ -1,3 +1,4 @@
+// Day 5: Programming Fundamentals: LeetCode 367. Valid Perfect Square
 public class day5pf {
     public boolean isPerfectSquare(int num) {
         if(num == 0 || num == 1) return true;
