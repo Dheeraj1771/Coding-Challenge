@@ -3,15 +3,25 @@ public class day5ds {
     public static class ListNode {
         int val;
         ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
-    public ListNode reverse(ListNode head){
+
+    public ListNode reverse(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
 
-        while(curr != null){
+        while (curr != null) {
             ListNode next = curr.next;
             curr.next = prev;
             prev = curr;
@@ -19,32 +29,35 @@ public class day5ds {
         }
         return prev;
     }
-    public ListNode findMiddle(ListNode head){
+
+    public ListNode findMiddle(ListNode head) {
         ListNode hare = head;
         ListNode turtle = head;
-        while(hare.next != null && hare.next.next != null){
+        while (hare.next != null && hare.next.next != null) {
             hare = hare.next.next;
             turtle = turtle.next;
         }
         return turtle;
     }
+
     public boolean isPalindrome(ListNode head) {
-        if(head == null || head.next == null){
+        if (head == null || head.next == null) {
             return true;
         }
         ListNode middle = findMiddle(head);
         ListNode secondhalfStart = reverse(middle.next);
         ListNode firsthalfStart = head;
-        while (secondhalfStart != null){
-            if(firsthalfStart.val != secondhalfStart.val){
+        while (secondhalfStart != null) {
+            if (firsthalfStart.val != secondhalfStart.val) {
                 return false;
             }
             firsthalfStart = firsthalfStart.next;
             secondhalfStart = secondhalfStart.next;
         }
         return true;
-        
+
     }
+
     public static void main(String[] args) {
         day5ds obj = new day5ds();
         ListNode head = new ListNode(1);
