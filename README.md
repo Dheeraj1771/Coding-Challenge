@@ -8,6 +8,7 @@
 
 ## 📋 Table of Contents
 - [About the Challenge](#about-the-challenge)
+- [Challenge Overview](#challenge-overview)
 - [How to Participate](#how-to-participate)
 - [Resources](#resources)
 - [Contributing](#contributing)
@@ -27,6 +28,8 @@ For the next 50 days, I’ll be tackling two coding problems from LeetCode every
   - Prepare for technical interviews
   - Honor my parents through dedication and growth
 <p> Whether you’re a beginner or a seasoned coder, I’d love for you to join me in this challenge! </p>
+
+## 🎯 Challenge Overview 🎯
 
 ## 🎟 How to Participate 🎟
 Ready to code along with me? Here’s how:
