@@ -1,19 +1,18 @@
 // Day 27: Data Structure and Algorithms: LeetCode 112. Path Sum
 import java.util.*;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        this.val = x;
-        this.left = null;
-        this.right = null;
-    }
-}
-
 public class day27ds_01 {
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    
+        TreeNode(int x) {
+            this.val = x;
+            this.left = null;
+            this.right = null;
+        }
+    }
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null)
             return false;

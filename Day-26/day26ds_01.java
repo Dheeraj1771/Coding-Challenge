@@ -1,19 +1,18 @@
 // Day 26: Data Structure and Algorithms: LeetCode 94. Binary Tree Inorder Traversal
 import java.util.*;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int val) {
-        this.val = val;
-        this.left = null;
-        this.right = null;
-    }
-}
-
 public class day26ds_01 {
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    
+        TreeNode(int val) {
+            this.val = val;
+            this.left = null;
+            this.right = null;
+        }
+    }
     public void inOrder(List<Integer> list, TreeNode root) {
         if (root == null)
             return;
