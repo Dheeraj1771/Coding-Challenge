@@ -1,19 +1,18 @@
-
+// Day 28: Data Structure and Algorithms: LeetCode 111. Minimum Depth of Binary Tree
 import java.util.*;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int val) {
-        this.val = val;
-        this.left = null;
-        this.right = null;
-    }
-}
-
 public class day28ds_01 {
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    
+        TreeNode(int val) {
+            this.val = val;
+            this.left = null;
+            this.right = null;
+        }
+    }
     public int minDepth(TreeNode root) {
         if(root == null) return 0;
         int depth = 1;
